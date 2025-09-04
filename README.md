@@ -1,16 +1,32 @@
-# form
+# 🚀 Test App - Flutter Learning Project
 
-A new Flutter project.
+This project is a simple **Flutter app** created for learning purposes.  
+It demonstrates **form validation, navigation, drawer, and bottom navigation bar** using Flutter’s Material Design widgets.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Features
+- **Login Screen**
+  - Email & Password fields with validation
+  - Password visibility toggle (eye icon)
+  - Login button with navigation to the next screen
+  - Error handling using `SnackBar`
+  - Optional dialog message (`AlertDialog`)
 
-A few resources to get you started if this is your first Flutter project:
+- **Home Screen (SecondScreen)**
+  - **Drawer Menu** with options:
+    - Profile
+    - Contact Us
+    - Settings
+    - Logout (navigates back to login screen)
+  - **BottomNavigationBar** to switch between:
+    - 🏠 Home page
+    - 👤 Profile page
+    - ⚙️ Settings page
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Pages**
+  - `Home` → Simple text "Home"
+  - `Profile` → Simple text "Profile"
+  - `Settings` → Simple text "Settings"
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
