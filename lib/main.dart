@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:form/home/homescreen.dart';
 import 'home_screen.dart';
 
 void main() {
@@ -15,11 +16,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.blue,
+          backgroundColor: Colors.white,
           foregroundColor: Colors.white,
         ),
       ),
-      home: const LoginPage(),
+      home: const HomeScreen(),
     );
   }
 }
